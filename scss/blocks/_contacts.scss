@@ -1,0 +1,43 @@
+.seven-section {
+
+  background-color: #fff;
+
+  &__title {
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__two-title {
+    width: 180px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    color: #000000;
+  }
+
+  &__map {
+    margin-left: 300px;
+    padding-bottom: 75px;
+  }
+}

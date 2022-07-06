@@ -77,7 +77,8 @@
             Discover the Louvre
           </button>
         </div>
-        <img style="position: relative; z-index: 10;" src="./images/monaliza.png" alt="monaliza-img" width="800" height="300">
+        <img class="main__monaliza-img" style="position: relative; z-index: 10;" src="./images/monaliza.png"
+          alt="monaliza-img" width="800" height="300">
         <img class="main__slider-img" src="./images/Slider-img.png" alt="Slider-img" width="450">
       </div>
     </section>
@@ -106,7 +107,7 @@
             </p>
           </li>
 
-          <li class="two-section__li">
+          <li class="two-section__li active">
             <img src="./images/two-section-img-2.svg" alt="img">
             <h3 class="two-section__two-title">
               Denon Wing
@@ -148,7 +149,7 @@
             </p>
           </li>
 
-          <li class="two-section__li">
+          <li class="two-section__li active">
             <img src="./images/two-section-img-5.svg" alt="img">
             <h3 class="two-section__two-title">
               Mona Lisa
@@ -186,23 +187,253 @@
           <h3 class="three-section__title">
             Picture explore
           </h3>
-  
+
           <div class="three-section__span"></div>
-  
+
           <p class="three-section__text">
             Las Meninas is a 1656 painting by Diego Velázquez, the leading <br> artist of the Spanish Golden Age.
           </p>
           <p class="three-section__text">
-            It was cleaned in 1984 to remove a <span class="three-section__active">"yellow veil"</span> of dust that had <br> gathered since the previous restoration in the 19th century.
+            It was cleaned in 1984 to remove a <span class="three-section__active">"yellow veil"</span> of dust that had
+            <br> gathered since the previous restoration in the 19th century.
           </p>
           <p class="three-section__text">
-            The cleaning provoked furious protests, not because picture had <br> been damaged in any way, but because it looked different.
+            The cleaning provoked furious protests, not because picture had <br> been damaged in any way, but because it
+            looked different.
           </p>
         </div>
         <img class="three-section__img" src="./images/three-section-img.png" alt="img" width="600">
       </div>
     </section>
+
+    <section class="four-section">
+      <div class="container">
+        <div class="four-section__wrapper">
+          <h2 class="four-section__title">
+            Video journey
+          </h2>
+          <p class="four-section__text">
+            Enter and visit one of the most famous museums in the world and enjoy <br> masterpieces such as Mona Lisa or
+            Hammurabi's Code
+          </p>
+        </div>
+
+        <iframe style="margin-bottom: 40px;" width="1110" height="544" src="https://www.youtube.com/embed/zp1BXPX8jcU"
+          title="Welcome to the Louvre - Bienvenue au Louvre - Musée du Louvre" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+        <div class="four-section__video">
+
+          <iframe class="four-section__iframe" style="margin-right: 40px;" width="340" height="250"
+            src="https://www.youtube.com/embed/aWmJ5DgyWPI"
+            title="Exposition - Le Corps et l'Âme. De Donatello à Michel-Ange. Sculptures italiennes de la Renaissance"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+          <iframe class="four-section__iframe" style="margin-right: 40px;" width="340" height="250"
+            src="https://www.youtube.com/embed/Vi5D6FKhRmo" title="Au Louvre ! La Vénus de Milo" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+          <iframe class="four-section__iframe" width="340" height="250" src="https://www.youtube.com/embed/NOhDysLnTvY"
+            title="Promenade dans les collections mésopotamiennes avec Ariane Thomas" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        </div>
+
+        <img class="four-section__img" src="./images/video-slider.svg" alt="vido-slider-img">
+
+      </div>
+    </section>
+
+    <section class="five-section">
+      <div class="container">
+        <img class="five-section__img" src="./images/Frame.svg" alt="img">
+      </div>
+    </section>
+
+    <section class="six-section">
+      <div class="container">
+        <h2 class="six-section__title">
+          BUY TICKETS
+        </h2>
+
+        <div class="six-section__div"></div>
+
+        <div class="six-section__tickets">
+          <img src="./images/Rectangle.svg" alt="img" width="560">
+          <div class="six-section__ticket-type">
+            <h3 class="six-section__ticket-title">
+              Ticket Type
+            </h3>
+
+            <div class="six-section__ticket">
+              <input class="six-section__input" name="knopka" type="radio">
+              <p class="six-section__ticket-text">
+                Permanent exhibition
+              </p>
+            </div>
+
+            <div class="six-section__ticket">
+              <input class="six-section__input" name="knopka" type="radio">
+              <p class="six-section__ticket-text">
+                Temporary exhibition
+              </p>
+            </div>
+
+            <div class="six-section__ticket">
+              <input class="six-section__input" name="knopka" type="radio">
+              <p class="six-section__ticket-text">
+                Combined Admission
+              </p>
+            </div>
+          </div>
+
+          <div class="six-section__amount">
+            <h3 class="six-section__two-ticket-title">
+              Amount
+            </h3>
+            <p class="six-section__two-text">
+              Basic 18+
+            </p>
+            <img src="./images/plyus-minus.svg" alt="img" width="130">
+            <p class="six-section__two-text">
+              Senior 65+
+            </p>
+            <img src="./images/plyus-minus.svg" alt="img" width="130">
+            <h3 class="six-section__three-ticket-title">
+              Total €220
+            </h3>
+            <button class="six-section__button">
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="six-section__bg-img"></div>
+    </section>
+
+    <section class="seven-section">
+      <div class="container">
+        <h2 class="seven-section__title">
+          Contacts
+        </h2>
+        <div class="six-section__div"></div>
+
+        <div class="seven-section__container">
+
+          <div class="seven-section__div">
+            <h3 class="seven-section__two-title">
+              Palais Royal Musee du Louvre
+            </h3>
+            <p class="seven-section__text">
+              address: 75001 Paris, France
+            </p>
+            <p class="seven-section__text">
+              phone: +33(0) 1 40 20 50 50
+            </p>
+            <p class="seven-section__text">
+              mail: info@louvre.fr
+            </p>
+          </div>
+
+          <div class="seven-section__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8741023651437!2d2.3354553155550852!3d48.860611079287615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2z0JvRg9Cy0YA!5e0!3m2!1sru!2s!4v1657023166436!5m2!1sru!2s"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <img class="footer__logo" src="./images/Logo.svg" alt="site-logo">
+        <ul class="footer__ul">
+          <li class="footer__li">
+            <a class="footer__link" href="#">
+              Visiting
+            </a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__link" href="#">
+              Explore
+            </a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__link" href="#">
+              Video
+            </a>
+          </li>
+        </ul>
+
+        <ul class="footer__ul">
+          <li class="footer__li">
+            <a class="footer__link" href="#">
+              Gallery
+            </a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__link" href="#">
+              Tickets
+            </a>
+          </li>
+          <li class="footer__li">
+            <a class="footer__link" href="#">
+              Contacts
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer__div">
+
+          <a class="footer__div-link" href="https://www.youtube.com">
+            <img src="./images/Youtube.svg" alt="img">
+          </a>
+
+          <a class="footer__div-link" href="https://www.instagram.com">
+            <img src="./images/Instagram.svg" alt="img">
+          </a>
+
+          <a class="footer__div-link" href="https://www.facebook.com">
+            <img src="./images/Facebook.svg" alt="img">
+          </a>
+
+          <a class="footer__div-link" href="https://twitter.com">
+            <img src="./images/Twitter.svg" alt="img">
+          </a>
+
+          <a class="footer__div-link" href="https://www.pinterest.com">
+            <img src="./images/Pinterest.svg" alt="img">
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="footer__line"></div>
+    <div class="container">
+      <div class="footer__two-div">
+        <p class="footer__two-text">
+          © 2021
+        </p>
+        <p class="footer__two-text">
+          The Rolling Scopes School
+        </p>
+        <p class="footer__two-text">
+          Username
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

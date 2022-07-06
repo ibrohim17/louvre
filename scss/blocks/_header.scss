@@ -94,136 +94,16 @@
     bottom: 0;
     left: calc(50% - -110px);
   }
-}
 
-.two-section {
-  
-  background: #fff;
-
-  &__title {
-    font-family: 'Forum';
-    font-weight: 400;
-    font-size: 55px;
-    line-height: 90px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #9D8665;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 15px;
-    padding-top: 65px;
-  }
-
-  &__span {
-    width: 100%;
-    height: 3px;
-    left: 5px;
-    top: 115px;
-    background: #710707;
-    border-radius: 5px;
-    margin-bottom: 75px;
-  }
-
-  &__ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  &__li {
-    max-width: 350px;
-    width: 100%;
-    list-style-type: none;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  &__two-title {
-    font-family: 'Forum';
-    font-weight: 400;
-    font-size: 26+px;
-    line-height: 35px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #000000;
-    margin-bottom: 10px;
-  }
-
-  &__two-span {
-    width: 300px;
-    height: 2px;
-    left: 0px;
-    top: 355px;
-    background: #710707;
-    border-radius: 0px;
-  }
-
-  &__text {
-    font-weight: 100;
-    font-size: 20px;
-    line-height: 26px;
-    color: #000000;
-    margin-bottom: 0;
-  }
-
-  &__two-text {
-    font-weight: 100;
-    font-size: 16px;
-    line-height: 21px;
-    color: #000000;
-    margin-top: 10px;
-    margin-bottom: 75px;
+  &__monaliza-img {
+    margin-right: 15px;
   }
 }
 
-.three-section {
 
-  background-color: #030303;
 
-  &__container {
-    display: flex;
-  }
-
-  &__title {
-    font-family: 'Forum';
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 90px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin: 0;
-    padding: 0;
-    padding-top: 75px;
-    margin-bottom: 25px;
-  }
-
-  &__span {
-    width: 430px;
-    height: 3px;
-    left: 0px;
-    top: 115px;
-    background: #710707;
-    border-radius: 0px;
-    margin-bottom: 75px;
-  }
-
-  &__text {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 38px;
-    color: #FFFFFF;
-    margin-bottom: 25px;
-  }
-
-  &__active {
-    color: #CAAA7D;
-  }
-
-  &__img {
-    padding-top: 95px;
-    margin-left: 60px;
-    padding-bottom: 75px;
+@media only screen and (max-width:1024px) {
+  .nav {
+    display: none;
   }
 }
